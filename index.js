@@ -3,7 +3,7 @@ function theBeatlesPlay(musicians, instruments) {
   var counter;
   for (counter = 0; counter < musicians.length; counter++) {
     var statement = musicians[counter] + " plays " + instruments[counter];
-    statementsrray.push(statement);
+    statementsArray.push(statement);
   }
   return statementsArray
 }
