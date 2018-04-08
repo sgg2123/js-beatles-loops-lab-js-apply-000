@@ -1,7 +1,7 @@
 function theBeatlesPlay(musicians, instruments) {
   var newArray = [];
   var counter;
-  for (counter = 0; counter <=3; counter++) {
+  for (counter = 0; counter <=musicians.length; counter++) {
     var newString = musicians[counter] + " plays " + instruments[counter];
     newArray.push(newString);
   }
