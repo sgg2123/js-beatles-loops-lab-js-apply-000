@@ -10,6 +10,7 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  while (i<10)
+  var
+  while (i<10) {
   return
 }
